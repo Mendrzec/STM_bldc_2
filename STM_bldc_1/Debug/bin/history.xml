@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=STM_bldc_1.map -O0 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\STM_bldc_1 -TD:\CooCox\CoIDE\configuration\ProgramData\STM_bldc_1/arm-gcc-link.ld -g">
+      <target file="STM_bldc_1.elf" lastModified="154a599ce78">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="1549f037b97"/>
+         <source file="..\obj\tm_stm32f4_hd44780.o" lastModified="1549f037de2"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1549f037fea"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1549f0380ce"/>
+         <source file="..\obj\main.o" lastModified="154a599ca5c"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1549f038465"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1549f0385eb"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="1549f03879d"/>
+         <source file="..\obj\functions.o" lastModified="1549f038a38"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1549f038b31"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1549f038bf0"/>
+         <source file="..\obj\syscalls.o" lastModified="1549f038cf2"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="1549f038dd8"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1549f038e82"/>
+         <source file="..\obj\misc.o" lastModified="1549f038f36"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="1549f03900d"/>
+         <source file="..\obj\tm_stm32f4_timer_properties.o" lastModified="1549f0390d5"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1549f03928d"/>
+      </target>
+   </processor>
+</history>
